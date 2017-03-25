@@ -40,9 +40,9 @@ $ gradle bootRun
             }
         }
     }
-```
+    ```
 
-- UIにはテーマを適用することで、より洗練された画面表示ができます。  
+- UIにはテーマを適用することで、より洗練された画面表示ができます。
 
     :octocat: [DemoApplication.kt](https://github.com/javecs/j-ecosys-codes-demo/blob/master/src/main/kotlin/com/example/DemoApplication.kt#L20)
     ```
