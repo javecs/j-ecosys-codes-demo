@@ -21,9 +21,9 @@ fun main(args: Array<String>) {
 @SpringUI
 class Welcome : UI() {
     override fun init(request: VaadinRequest?) {
-        content = VerticalLayout().apply {
+        content = VerticalLayout().apply({
             setSizeFull()
-            addComponent(Button("ようこそ", Button.ClickListener { Notification.show("Java エコシステムへ") }))
-        }
+            addComponent(Button("ようこそ") { _ -> Notification.show("Java エコシステムへ") })
+        })
     }
 }
