@@ -26,7 +26,7 @@ $ gradle bootRun
     compile('com.vaadin:vaadin-spring-boot-starter')
     ```
 
-- 画面に表示するクラウは、VaadinのUIクラウを継承して`@SpringUI`をつけます。 そして、`init`の中で表示したい画面を書きます。  
+- 画面に表示するクラスは、VaadinのUIクラウを継承して`@SpringUI`をつけます。 そして、`init`の中で表示したい画面を書きます。  
 
     :octocat: [DemoApplication.kt](https://github.com/javecs/j-ecosys-codes-demo/blob/master/src/main/kotlin/com/example/DemoApplication.kt#L22)
     ```Kotlin
