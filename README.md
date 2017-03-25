@@ -19,14 +19,14 @@ $ gradle bootRun
 
 ## コードの説明
 
-1. まずは、Vaadin Springプラグインを使用します。 
+- まずは、Vaadin Springプラグインを使用します。 
 
 :octocat: [build.gradle](https://github.com/javecs/j-ecosys-codes-demo/blob/master/build.gradle#L36)
 ```
 compile('com.vaadin:vaadin-spring-boot-starter')
 ```
 
-2. 画面に表示するクラウは、VaadinのUIクラウを継承して`@SpringUI`をつけます。 そして、`init`の中で表示したい画面を書きます。  
+- 画面に表示するクラウは、VaadinのUIクラウを継承して`@SpringUI`をつけます。 そして、`init`の中で表示したい画面を書きます。  
 
 :octocat: [DemoApplication.kt](https://github.com/javecs/j-ecosys-codes-demo/blob/master/src/main/kotlin/com/example/DemoApplication.kt#L22)
 ```Kotlin
@@ -42,7 +42,7 @@ class Welcome : UI() {
 }
 ```
 
-3. UIにはテーマを適用することで、より洗練された画面表示ができます。  
+- UIにはテーマを適用することで、より洗練された画面表示ができます。  
 
 :octocat: [DemoApplication.kt](https://github.com/javecs/j-ecosys-codes-demo/blob/master/src/main/kotlin/com/example/DemoApplication.kt#L20)
 ```
