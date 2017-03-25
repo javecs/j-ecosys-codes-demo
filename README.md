@@ -52,5 +52,6 @@ class Welcome : UI() {
 ## より詳しくは...
 - VaadinとSpringのチュートリアルです。  
   http://vaadin.github.io/spring-tutorial/
-- Vaadinのテーマを触ってみたいなら、次のページで試してみてください。  
+  
+- Vaadinのテーマを触ってみたいなら、次のページで試してみてください。  
   http://demo.vaadin.com/valo-theme/#!common
