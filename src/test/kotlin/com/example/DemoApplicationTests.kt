@@ -12,7 +12,7 @@ class DemoApplicationTests {
 
 	@Test
 	fun contextLoads() {
-		Assert.assertTrue("Works!", true)
+		Assert.assertTrue("It works!", true)
 	}
 
 }
