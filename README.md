@@ -14,3 +14,4 @@ $ gradle bootRun
 ```
 - [localhost:8080](http://localhost:8080/)にアクセスして見てください。
 
+[ようこそ](http://i.imgur.com/LhNHfLo.png)
