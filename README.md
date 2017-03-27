@@ -1,4 +1,4 @@
-# j-ecosys-codes-demo
+# j-ecosys-codes-demo [![Build Status](https://travis-ci.org/javecs/j-ecosys-codes-demo.svg?branch=master)](https://travis-ci.org/javecs/j-ecosys-codes-demo)
 [Javaの開発環境](https://github.com/javecs/j-ecosys)ができたところで初めに動かしてみるアプリです。
 
 ## 使うもの
