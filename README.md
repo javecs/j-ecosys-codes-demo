@@ -55,3 +55,6 @@ $ gradle bootRun
   
 - Vaadinのテーマを触ってみたいなら、次のページで試してみてください。  
   http://demo.vaadin.com/valo-theme/#!common
+
+## お試し環境
+- http://demo.javecs.xyz/
